@@ -9,7 +9,7 @@ interpretable weighted score (the Reconnect Score) is compared with a majority b
 logistic regression, and a small neural network (ReconnectScoreNet) on the SNAP
 `email-Eu-core` data.
 
-The Phase 2 mid-project report is [`reports/phase2_report.pdf`](reports/phase2_report.pdf) (also `.docx`; source in `reports/phase2_report.md`).
+The Phase 2 mid-project report is [`reports/phase2_report.md`](reports/phase2_report.md).
 
 ## Two data issues to know before reading the code
 
