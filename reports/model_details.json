@@ -1,0 +1,80 @@
+{
+  "t0": 400,
+  "t0_out_of_time": 460,
+  "train_positive_rate": 0.11860670194003527,
+  "thresholds_chosen_on_validation": {
+    "majority": 0.5,
+    "weighted_sum": 0.41690969650205767,
+    "logistic": 0.1347518252205974,
+    "network": 0.13620933890342712
+  },
+  "weighted_sum_cutoff_on_score_scale": {
+    "first_pass": 48.0,
+    "validation_tuned": 41.690969650205766
+  },
+  "weights": {
+    "S": 0.35,
+    "H": 0.25,
+    "C": 0.2,
+    "T": 0.2
+  },
+  "logistic": {
+    "C": 100.0,
+    "coefficients_per_signal_div_100": {
+      "S": 0.6766,
+      "H": 1.2392,
+      "C": 0.2201,
+      "T": -0.3265
+    },
+    "intercept": -2.6926967697694244
+  },
+  "network": {
+    "best_epoch": 40,
+    "epochs_run": 66,
+    "best_val_loss": 0.3511802852153778,
+    "final_train_loss": 0.35322099924087524
+  },
+  "network_seeds_test": {
+    "roc_auc": {
+      "mean": 0.6769438384658313,
+      "std": 0.0019669057315249957
+    },
+    "average_precision": {
+      "mean": 0.22906514263090844,
+      "std": 0.008133583336959481
+    },
+    "f1": {
+      "mean": 0.29212404496256006,
+      "std": 0.013474088012639522
+    },
+    "brier": {
+      "mean": 0.10002332031726838,
+      "std": 0.00010039680181580851
+    }
+  },
+  "ablation_baseline_test_ap": {
+    "weighted_sum": 0.20076970578656672,
+    "logistic": 0.22490788259465105,
+    "network": 0.22666897919960602
+  },
+  "ablation_ranking_senders": 100,
+  "error_analysis": {
+    "weighted_sum": {
+      "false_positives": 626,
+      "high_T_low_S": 66,
+      "share_high_T_low_S": 0.10543130990415335
+    },
+    "network": {
+      "false_positives": 214,
+      "high_T_low_S": 15,
+      "share_high_T_low_S": 0.07009345794392523
+    },
+    "share_high_T_low_S_among_all_test_negatives": 0.26487747957992996,
+    "rule": "T >= 75 and S <= 20"
+  },
+  "synthetic_debug": {
+    "rows": 4000,
+    "best_val_loss": 0.5287004709243774,
+    "note": "training-loop check only; not a reported result"
+  }
+}

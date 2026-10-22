@@ -1,0 +1,5 @@
+dropped_signal,weighted_sum_ap,weighted_sum_delta_ap,logistic_ap,logistic_delta_ap,network_ap,network_delta_ap,weighted_sum_top_partner_changed,network_top_partner_changed
+S,0.1639,-0.0369,0.1999,-0.0250,0.2073,-0.0194,0.3300,0.2400
+H,0.1516,-0.0492,0.1947,-0.0302,0.1974,-0.0293,0.5100,0.5000
+C,0.1879,-0.0129,0.2254,0.0005,0.2249,-0.0018,0.1400,0.1900
+T,0.2056,0.0048,0.2118,-0.0131,0.2135,-0.0131,0.3200,0.3700
