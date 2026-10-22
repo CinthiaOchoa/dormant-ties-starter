@@ -1,0 +1,104 @@
+{
+  "sender": 16,
+  "selection_rule": "emails sent before t0 closest to the median (187) among people with >= 8 dormant partners",
+  "sender_emails_sent_before_t0": 188,
+  "dormant_partners": 35,
+  "resumed_within_horizon": 5,
+  "hand_checks": [
+    {
+      "rank": 1,
+      "hand": {
+        "partner": 249,
+        "emails_sender_to_partner": 4,
+        "emails_partner_to_sender": 8,
+        "days_silent": 159.4378,
+        "S": 60.0,
+        "H": 90,
+        "C": 80,
+        "T": 77.1531,
+        "score": 74.9306
+      },
+      "pipeline": {
+        "S": 60.0,
+        "H": 90.0,
+        "C": 80.0,
+        "T": 77.1531,
+        "score": 74.9306
+      },
+      "match": true
+    },
+    {
+      "rank": 18,
+      "hand": {
+        "partner": 732,
+        "emails_sender_to_partner": 2,
+        "emails_partner_to_sender": 2,
+        "days_silent": 130.5717,
+        "S": 40.0,
+        "H": 35,
+        "C": 80,
+        "T": 45.0796,
+        "score": 47.7659
+      },
+      "pipeline": {
+        "S": 40.0,
+        "H": 35.0,
+        "C": 80.0,
+        "T": 45.0796,
+        "score": 47.7659
+      },
+      "match": true
+    },
+    {
+      "rank": 35,
+      "hand": {
+        "partner": 362,
+        "emails_sender_to_partner": 0,
+        "emails_partner_to_sender": 1,
+        "days_silent": 91.6035,
+        "S": 40.0,
+        "H": 20,
+        "C": 40,
+        "T": 1.7816,
+        "score": 27.3563
+      },
+      "pipeline": {
+        "S": 40.0,
+        "H": 20.0,
+        "C": 40.0,
+        "T": 1.7816,
+        "score": 27.3563
+      },
+      "match": true
+    }
+  ],
+  "stability": {
+    "top_5_at_t400": [
+      249,
+      502,
+      724,
+      423,
+      832
+    ],
+    "top_5_at_t460": [
+      249,
+      502,
+      724,
+      14,
+      423
+    ],
+    "top_5_still_dormant_at_t460": [
+      249,
+      502,
+      724,
+      423
+    ],
+    "overlap_of_top_lists": 4,
+    "all_senders": {
+      "senders_with_dormant_partners_at_both_times": 849,
+      "senders_whose_t0_top_partner_is_still_dormant": 707,
+      "share_keeping_same_top_partner": 0.6605374823196606
+    }
+  },
+  "note": "Labels are emails in (t0, t0 + 60]; seed 4740."
+}
