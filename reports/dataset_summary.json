@@ -1,0 +1,79 @@
+{
+  "raw_temporal_rows": 332334,
+  "self_mail_dropped": 0,
+  "people_in_temporal_file": 986,
+  "people_with_resolved_department": 965,
+  "trace_days": 803.93,
+  "contiguous_record_end_day": 525.52,
+  "network_wide_gap": {
+    "from_day": 525.52,
+    "to_day": 797.34,
+    "emails_after_gap": 2424
+  },
+  "design": {
+    "t0": 400,
+    "t0_out_of_time": 460,
+    "gate_days": 90,
+    "label_horizon_days": 60,
+    "profile_window_days": 30,
+    "profile_top_k": 5,
+    "split": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "seed": 4740
+  },
+  "closeness_bins": {
+    "20": "1-2 emails",
+    "35": "3-4 emails",
+    "60": "5-7 emails",
+    "90": ">7 emails",
+    "fit_on": "training pairs at t0"
+  },
+  "closeness_edges": [
+    4,
+    7
+  ],
+  "t400": {
+    "pairs_with_history": 13195,
+    "active_pairs_excluded_by_gate": 6715,
+    "dormant_pairs": 6480,
+    "dormant_positives": 769,
+    "dormant_positive_rate": 0.1187,
+    "dormant_pairs_with_unknown_department": 13,
+    "dormant_pairs_mutual": 2620,
+    "dormant_pairs_one_way": 3860
+  },
+  "t400_folds": {
+    "train": {
+      "pairs": 4536,
+      "positives": 538
+    },
+    "val": {
+      "pairs": 972,
+      "positives": 116
+    },
+    "test": {
+      "pairs": 972,
+      "positives": 115
+    }
+  },
+  "t460": {
+    "pairs_with_history": 14462,
+    "active_pairs_excluded_by_gate": 6612,
+    "dormant_pairs": 7850,
+    "dormant_positives": 1215,
+    "dormant_positive_rate": 0.1548,
+    "dormant_pairs_with_unknown_department": 12,
+    "dormant_pairs_mutual": 3362,
+    "dormant_pairs_one_way": 4488
+  },
+  "signal_means_t400": {
+    "S": 48.76,
+    "H": 35.22,
+    "C": 56.17,
+    "T": 84.43,
+    "score": 53.99
+  }
+}
