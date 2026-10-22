@@ -1,0 +1,225 @@
+{
+  "temporal_directed_edges": 24929,
+  "static_directed_edges_without_self_loops": 24929,
+  "static_self_loops": 642,
+  "temporal_nodes": 986,
+  "static_nodes_with_labels": 1005,
+  "naive_identity_join_edge_overlap": 571,
+  "random_relabeling_edge_overlap": 638,
+  "crosswalk_edges_preserved": 24929,
+  "uniquely_identified_nodes": 954,
+  "structural_twin_nodes": 32,
+  "twin_nodes_with_consistent_department": 11,
+  "nodes_with_unresolved_department": 21,
+  "nodes_with_department": 965,
+  "twin_classes": [
+    {
+      "temporal_ids": [
+        36,
+        642
+      ],
+      "static_ids": [
+        792,
+        890
+      ],
+      "static_departments": [
+        9,
+        24
+      ]
+    },
+    {
+      "temporal_ids": [
+        43,
+        94
+      ],
+      "static_ids": [
+        884,
+        888
+      ],
+      "static_departments": [
+        21,
+        32
+      ]
+    },
+    {
+      "temporal_ids": [
+        57,
+        961,
+        998
+      ],
+      "static_ids": [
+        716,
+        763,
+        902
+      ],
+      "static_departments": [
+        4,
+        29,
+        34
+      ]
+    },
+    {
+      "temporal_ids": [
+        100,
+        128
+      ],
+      "static_ids": [
+        901,
+        982
+      ],
+      "static_departments": [
+        21,
+        21
+      ]
+    },
+    {
+      "temporal_ids": [
+        123,
+        829,
+        958
+      ],
+      "static_ids": [
+        449,
+        603,
+        916
+      ],
+      "static_departments": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "temporal_ids": [
+        210,
+        560
+      ],
+      "static_ids": [
+        973,
+        975
+      ],
+      "static_departments": [
+        9,
+        14
+      ]
+    },
+    {
+      "temporal_ids": [
+        212,
+        882
+      ],
+      "static_ids": [
+        704,
+        834
+      ],
+      "static_departments": [
+        6,
+        10
+      ]
+    },
+    {
+      "temporal_ids": [
+        252,
+        856,
+        903,
+        982
+      ],
+      "static_ids": [
+        659,
+        959,
+        960,
+        961
+      ],
+      "static_departments": [
+        4,
+        4,
+        6,
+        6
+      ]
+    },
+    {
+      "temporal_ids": [
+        279,
+        615
+      ],
+      "static_ids": [
+        870,
+        874
+      ],
+      "static_departments": [
+        4,
+        33
+      ]
+    },
+    {
+      "temporal_ids": [
+        287,
+        475
+      ],
+      "static_ids": [
+        784,
+        864
+      ],
+      "static_departments": [
+        28,
+        28
+      ]
+    },
+    {
+      "temporal_ids": [
+        296,
+        781
+      ],
+      "static_ids": [
+        910,
+        998
+      ],
+      "static_departments": [
+        4,
+        14
+      ]
+    },
+    {
+      "temporal_ids": [
+        375,
+        632
+      ],
+      "static_ids": [
+        775,
+        1002
+      ],
+      "static_departments": [
+        1,
+        1
+      ]
+    },
+    {
+      "temporal_ids": [
+        567,
+        655
+      ],
+      "static_ids": [
+        636,
+        928
+      ],
+      "static_departments": [
+        21,
+        21
+      ]
+    },
+    {
+      "temporal_ids": [
+        930,
+        938
+      ],
+      "static_ids": [
+        561,
+        701
+      ],
+      "static_departments": [
+        30,
+        34
+      ]
+    }
+  ]
+}
