@@ -1,6 +1,6 @@
 # Ranking Dormant Ties in a Timestamped Email Network
 
-CSC 4740/6740 Data Mining — Team 3 — Phase 2 (October 23, 2026)
+CSC 4740/6740 Data Mining — Team 3 — Phase 2 (October 27, 2026)
 Author: Cinthia Ochoa Torre
 
 For pairs of people who emailed each other and then went silent for at least 90 days,
@@ -9,7 +9,7 @@ interpretable weighted score (the Reconnect Score) is compared with a majority b
 logistic regression, and a small neural network (ReconnectScoreNet) on the SNAP
 `email-Eu-core` data.
 
-The Phase 2 report is [`reports/phase2_report.md`](reports/phase2_report.md).
+The Phase 2 mid-project report is [`reports/phase2_report.pdf`](reports/phase2_report.pdf) (also `.docx`; source in `reports/phase2_report.md`).
 
 ## Two data issues to know before reading the code
 
